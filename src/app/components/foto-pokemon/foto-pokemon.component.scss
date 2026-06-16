@@ -1,0 +1,20 @@
+#container{
+    border: 4px solid #8cbbf1;
+    outline: 12px solid #f8e55c;
+    max-width: 500px;
+    aspect-ratio: 1; /*Permite hacer que la imagen sea cuadrada*/
+    border-radius: 25px;
+    background: repeating-linear-gradient( /*Con repeteating permite repetir las lineas en bucle*/
+        to bottom,
+        #f5f7f9,
+        #f5f7f9 15px,
+        #c9e2f4 15px,
+        #c9e2f4 25px,
+
+    );
+
+    img{
+        width: 100%;
+        image-rendering: pixelated; /*Permite que la imagen se vea pixelada, ya que sin esto se ve como si estuviera filtrada o suavizada*/
+    }
+}
